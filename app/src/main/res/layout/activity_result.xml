@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C3FD"
+    tools:context=".ResultActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_input"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        android:layout_marginBottom="184dp"
+        android:clickable="true"
+        android:src="@drawable/ic_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/black"
+        tools:srcCompat="@android:drawable/screen_background_dark" />
+
+    <ImageView
+        android:id="@+id/iv_output"
+        android:layout_width="413dp"
+        android:layout_height="597dp"
+        android:layout_marginBottom="180dp"
+        android:clickable="true"
+        android:src="@drawable/ic_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/black"
+        tools:visibility="invisible" />
+
+    <github.com.st235.lib_expandablebottombar.ExpandableBottomBar
+        android:id="@+id/expandable_bottom_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#C0C0C0"
+        android:translationY="-70dp"
+        app:exb_backgroundCornerRadius="25dp"
+
+        app:exb_itemInactiveColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

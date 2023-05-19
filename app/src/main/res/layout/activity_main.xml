@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C3FD"
+    android:backgroundTint="#85C3FD"
+    tools:context=".MainActivity">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_gallery2"-->
+    <!--        android:layout_width="40dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:background="@drawable/rectangle_2"-->
+    <!--        android:backgroundTint="#FFFFFF"-->
+    <!--        android:foreground="@drawable/apple_photo"-->
+    <!--        android:insetTop="0dp"-->
+    <!--        android:insetBottom="0dp"-->
+    <!--        app:backgroundTint="#333232"-->
+    <!--        app:elevation="0dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/btn_takepicture"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+
+
+    <Button
+        android:id="@+id/btn_takepicture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:alpha="1.0"
+        android:background="@drawable/ic_cam_btn"
+        android:backgroundTint="@null"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:backgroundTint="@null"
+        app:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_gallery"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
+        android:elevation="5dp"
+        app:icon="@drawable/ic_photo_library_black_24dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="50dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_takepicture"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:rippleColor="@color/btnClick"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.MediumComponent">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_change"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="636dp"
+        android:backgroundTint="@color/white"
+        android:elevation="4dp"
+        app:icon="@drawable/ic_change_record_1"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="40dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_takepicture"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        app:rippleColor="@color/btnClick"
+        app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.MediumComponent">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        android:layout_above="@+id/btn_takepicture"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <ImageView
+        android:id="@+id/iv_pre"
+        android:layout_width="410dp"
+        android:layout_height="600dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/texture"/>
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="414dp"
+        android:layout_height="141dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/rectangle_1"
+        android:backgroundTint="#85C3FD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="invisible" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

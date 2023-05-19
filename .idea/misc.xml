@@ -1,0 +1,52 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_android_small___3.xml" value="0.256" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_appimage_background.xml" value="0.256" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_cam_btn.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_change_circle_black_24dp.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_change_record_1.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_circle_black_24dp.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_info_black_24dp.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_input.xml" value="0.3" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_launcher_background.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_output.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_photo_library_black_24dp.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_save_alt_black_24dp.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_share_svgrepo_com.xml" value="0.3295" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_splash.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_splash_black.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_splash_white.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_ue_background.xml" value="0.3" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_ueapp_background.xml" value="0.1955" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_uesplash.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/drawable/ic_view.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/layout/activity_result.xml" value="0.25" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/layout/activity_splash.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/layout/loading.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/menu/navigation_menu.xml" value="0.365625" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_appimage.xml" value="0.285" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_appimage_round.xml" value="0.285" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_main_launcher_round.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_ueapp.xml" value="0.1955" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-anydpi-v26/ic_ueapp_round.xml" value="0.1955" />
+        <entry key="..\:/Users/SY/ui_applied/enhanced-lowlight-app-main/app/src/main/res/mipmap-hdpi/ic_main_launcher_uieb.xml" value="0.237" />
+        <entry key="..\:/Users/SY/ui_applied/underwater_image_enhancement/app/src/main/res/drawable/ic_view.xml" value="0.1915" />
+        <entry key="..\:/Users/SY/ui_applied/underwater_image_enhancement/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/SY/ui_applied/underwater_image_enhancement/app/src/main/res/layout/activity_result.xml" value="0.18333333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
